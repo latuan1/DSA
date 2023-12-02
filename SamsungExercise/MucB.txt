@@ -110,6 +110,11 @@ Như bài 11
 Bài 13
 Xét tập hợp V gồm các đỉnh. Số lượng đồ thị có hướng không có cạnh song song tạo thành từ các đỉnh trên bằng số tập con của tập hợp V x V (tích Decartes) và bằng 2^(V^2).
 
+Bài 14:
+Số đồ thị có hướng phi chu trình có V đỉnh được biểu diễn bởi công thức truy hồi:
+a(0) = 1
+a(V) = Tổng với k chạy từ 1 đến của (-1)^(k+1) * (V)C(k) * 2^(k(V-k)) * a(V - k)
+
 Bài 15
 Input: Đồ thị có hướng G(V, E) không có chu trình
 Output: Thứ tự topo của đồ thị
